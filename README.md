@@ -12,7 +12,7 @@ This is a list of key features offered by Caching Proxy Factory:
 
 - Caching proxy
 - Self-signed certificate
-- Tbd.
+- Security certificate obtain http endpoint.
 
 # Compatibility
 
