@@ -12,7 +12,7 @@ services:
       networks:
         - {{SERVICE.NETWORK.NAME}}
       volumes:
-        - {{SERVER.SERVER_HOME}}/Server/Squid/Cert:/var/www/localhost/htdocs
+        - {{SERVER.HOME}}/Server/Squid/Cert:/var/www/localhost/htdocs
     {{SERVICE.SQUID.NAME}}:
       build:
         context: .
@@ -34,10 +34,10 @@ services:
       networks:
         - {{SERVICE.NETWORK.NAME}}
       volumes:
-        - {{SERVER.SERVER_HOME}}/Server/Squid/Log:/var/log/squid
-        - {{SERVER.SERVER_HOME}}/Server/Squid/Cache:/var/cache/squid
-        - {{SERVER.SERVER_HOME}}/Server/Squid/Cert:/etc/squid/ssl_cert
-        - {{SERVER.SERVER_HOME}}/Server/Squid/Users:/etc/squid/passwords
+        - {{SERVER.HOME}}/Server/Squid/Log:/var/log/squid
+        - {{SERVER.HOME}}/Server/Squid/Cache:/var/cache/squid
+        - {{SERVER.HOME}}/Server/Squid/Cert:/etc/squid/ssl_cert
+        - {{SERVER.HOME}}/Server/Squid/Users:/etc/squid/passwords
 
 networks:
     {{SERVICE.NETWORK.NAME}}:

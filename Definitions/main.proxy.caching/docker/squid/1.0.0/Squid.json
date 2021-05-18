@@ -19,11 +19,11 @@
           },
           {
             "type": "deploy",
-            "value": "main.proxy.caching/docker/squid:1.0.0@:{{DOCKER.DOCKER_HOME}}/Squid"
+            "value": "main.proxy.caching/docker/squid:1.0.0@:{{DOCKER.HOME}}/Squid"
           },
           {
             "type": "stack",
-            "value": "{{DOCKER.DOCKER_HOME}}/Squid"
+            "value": "{{DOCKER.HOME}}/Squid"
           },
           {
             "type": "check",
@@ -31,11 +31,11 @@
           },
           {
             "type": "command",
-            "value": "ln {{DOCKER.DOCKER_HOME}}/Squid/squid.service /etc/systemd/system/squid.service"
+            "value": "ln {{DOCKER.HOME}}/Squid/squid.service /etc/systemd/system/squid.service"
           },
           {
             "type": "command",
-            "value": "sh {{SERVER.SERVER_HOME}}/Utils/setenforce.sh"
+            "value": "sh {{SERVER.HOME}}/Utils/setenforce.sh"
           },
           {
             "type": "command",

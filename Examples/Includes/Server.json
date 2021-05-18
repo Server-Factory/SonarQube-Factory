@@ -2,8 +2,9 @@
   "variables": {
     "SERVER": {
       "DOMAIN": "dev.local",
-      "SERVER_HOME": "/root",
+      "HOME": "/root",
       "REBOOT_ALLOWED": true,
+
       "INFO": {
         "COUNTRY": "RS",
         "PROVINCE": "Belgrade",

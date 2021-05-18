@@ -5,7 +5,7 @@ Requires=docker.service
 
 [Service]
 Restart=always
-ExecStart={{DOCKER.DOCKER_HOME}}/Definitions/Squid/start.sh
+ExecStart={{DOCKER.HOME}}/Definitions/Squid/start.sh
 
 [Install]
 WantedBy=multi-user.target
