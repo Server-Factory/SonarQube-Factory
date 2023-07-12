@@ -1,18 +1,16 @@
 ![](Logo.png)
 
-# Caching Proxy Factory
+# SonarQube Factory
 
-Run your own caching proxy server.
+Run your own SonarQube server.
 
 *Note:* Current project version is dedicated for software development purposes only.
 
 # Key features
 
-This is a list of key features offered by Caching Proxy Factory:
+This is a list of key features offered by SonarQube Factory:
 
-- Caching proxy
-- Self-signed certificate
-- Security certificate obtain http endpoint.
+Tbd.
 
 # Compatibility
 
